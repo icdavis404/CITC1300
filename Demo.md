@@ -1,7 +1,0 @@
-Demo.md
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Demo Site</title>
-    </head>
-</html>
