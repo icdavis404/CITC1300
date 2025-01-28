@@ -1,4 +1,4 @@
 #CITC1300 Project page
 #Ian Davis
 
-<a href = "Intro_to_html/index.html">Intro to Html</a>
+<a href = "CITC1300/index.html">Intro to Html</a>
