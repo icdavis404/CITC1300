@@ -1,25 +1,26 @@
-*{
+* {
     font-family: 'Courier New', Courier, monospace;
 }
 
-body{
+body {
     background-color: lightsteelblue;
 }
 
-header h1{
+header h1 {
     text-align: center;
     padding: 10px;
     background-color: lightgrey;
     border-radius: 20px;
     font-size: 40px;
 }
-#container{
+
+#container {
     background-color: lightgrey;
     border-radius: 20px;
     padding: 10px;
 }
 
-.Images{
+.Images {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -27,15 +28,15 @@ header h1{
     height: 400px
 }
 
-.Images img{
+.Images img {
     padding: 10px;
 }
 
-body h2{
+body h2 {
     font-size: 30px;
 }
 
-nav{
+nav {
     text-align: center;
     background-color: lightgrey;
     padding-top: 10px;
@@ -43,20 +44,20 @@ nav{
     margin-bottom: 10px;
 }
 
-nav a{
+nav a {
     background-color: lightgrey;
     border-radius: 20px;
     color: black;
 }
 
-nav a:hover{
+nav a:hover {
     color: orangered;
 }
 
-hr{
+hr {
     margin: 5px;
 }
 
-footer{
+footer {
     text-align: center;
 }
