@@ -1,3 +1,6 @@
+h1{
+    color: red;
+}/*Used for debug*/
 #index_Body {
     display: block;
     margin: 5px auto;
@@ -62,4 +65,19 @@ h2 {
     justify-content: space-between; /* Distribute space between items */
     flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
     width: 33%; /* Ensure the container takes full width */
+}
+
+.mission_types_separator{
+    display: flex;
+    width: 100%;
+}
+
+article {
+    flex: 0 0 70%; /* Take up 70% of the width */
+    padding: 10px;
+}
+
+aside {
+    flex: 0 0 30%; /* Take up 30% of the width */
+    padding: 10px;
 }
