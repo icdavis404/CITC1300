@@ -73,11 +73,11 @@ h2 {
 }
 
 article {
-    flex: 0 0 70%; /* Take up 70% of the width */
+    flex: 70%; /* Take up 70% of the width */
     padding: 10px;
 }
 
 aside {
-    flex: 0 0 30%; /* Take up 30% of the width */
+    flex: 30%; /* Take up 30% of the width */
     padding: 10px;
 }
