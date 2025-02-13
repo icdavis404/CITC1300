@@ -33,11 +33,11 @@ footer{
     margin: 10px;
 }
 
-b {
-    text-decoration: underline !important;
+#Home_Links{
+    text-decoration: underline;
 }
 
-b:hover{
+#Home_Links a:hover{
     color: rgb(173, 172, 71);
 }
 
