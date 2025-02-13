@@ -55,6 +55,9 @@ h1 {
 }
 
 nav {
+    background-color: rgb(20,20,20) !important;
+    border: 2px solid yellow;
+    border-radius: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
