@@ -1,0 +1,65 @@
+#index_Body {
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+.Home_Photo_Gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.Home_Photo_Gallery img {
+    max-width: 24.5%;
+    margin: 5px;
+}
+
+.Equipment_Photo_Gallery {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.equipment_photo_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18%; /* Adjusted to fit all images on the page */
+    margin: 10px;
+}
+
+.equipment_photo_container img {
+    max-width: 100%; /* Ensure the image fits within the container */
+}
+
+.equipment_photo_container p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+h2 {
+    width: 100%; /* Ensure the titles take full width */
+    clear: both; /* Clear any floats */
+    display: block; /* Ensure the titles are block elements */
+}
+
+.Pweapon_Photo_Gallery{
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.Pweapon_Photo_Gallery img {
+    max-width: 100%;
+    margin: 5px;
+}
+
+.Sweapon_Photo_Gallery{
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    width: 33%; /* Ensure the container takes full width */
+}
