@@ -91,6 +91,8 @@ nav {
 .Home_Photo_Gallery img {
     max-width: 24.5%;
     margin: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 .Equipment_Photo_Gallery {
@@ -110,6 +112,8 @@ nav {
 
 .equipment_photo_container img {
     max-width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 .equipment_photo_container p {
@@ -141,6 +145,8 @@ h4{
 .Pweapon_Photo_Gallery img {
     max-width: 100%;
     margin: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 .Sweapon_Photo_Gallery {
@@ -183,6 +189,8 @@ aside {
 }
 .Stratagem_photo_container img {
     max-width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 .Enemy_Photo_Gallery {
@@ -200,6 +208,12 @@ aside {
     margin: 10px;
 }
 
+.Enemy_photo_container img {
+    max-width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
 .Home_Photo_Gallery{
     display: flex;
     justify-content: space-between;
@@ -215,5 +229,6 @@ aside {
 }
 .Home_photo_container img{
     max-width: 100%;
-    
+    border: 2px solid white;
+    border-radius: 20px;
 }
