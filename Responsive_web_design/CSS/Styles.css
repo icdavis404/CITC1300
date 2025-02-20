@@ -1,258 +1,407 @@
-* {
+/*Global*/
+body {
     background-color: rgb(20, 20, 20);
-    color: rgb(219, 219, 213);
-    text-decoration: none;
 }
 
 #index_Body,
 #equipment_Body,
 #missions_Body,
-#factions_Body {
+#factions_Body{
+    background-color: rgb(38, 38, 36);
+    color: rgb(219, 219, 213);
     border: 2px solid yellow;
     border-radius: 20px;
-    background-color: rgb(38, 38, 36);
     display: block;
     margin: 30px 20px 30px 20px;
     padding: 15px;
 }
 
-#index_Body *,
-#equipment_Body *,
-#missions_Body *,
-#factions_Body * {
-    background-color: rgb(38, 38, 36)
-}
-
-#index_Body,
-#equipment_Body,
-#missions_Body,
-#factions_Body {
-    margin: 25px 20px 25px 20px;
-    padding: 20px;
-}
-
 /*Mobile*/
-@media(max-width: 599px){
+@media(min-width: 100px) {
+    nav {
+        padding: 5px;
+        margin: 5px;
+    }
 
-h1 {
-    text-align: center;
-    font-size: 80px;
-}
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
 
-nav {
-    text-align: center;
-}
+    nav li {
+        display: block;
+    }
 
-nav ul{
-    list-style-type: none;
-    padding: 0;
-}
+    nav li a {
+        display: block;
+        background-color: rgb(209, 203, 79);
+        height: 50px;
+        line-height: 50px;
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 20px;
+        border: 2px solid black;
+    }
 
-nav ul li{
-    display: block;
-}
+    nav li a:hover {
+        background-color: orangered;
+        color: white;
+    }
 
-nav ul li a {
-    display: block;
-    background-color: rgb(209, 203, 79) !important;
-    color: black;
-    padding: 30px 20px;
-    text-decoration: none;
-    border: 2px solid black;
-    border-radius: 20px;
-    text-align: center;
-    margin: 10px;
-    font-size: 35px;
-    font-weight: bold;
-    width: 90%;
-}
+    main {
+        padding: 30px;
+    }
 
-nav ul li a:hover {
-    background-color: grey;
-    color: black;
-}
+    h1,
+    h2,
+    h3 {
+        text-align: center;
+    }
 
-main {
-    margin: 20px 0px 20px 0px;
-    padding: 20px;
-}
+    h1 {
+        font-size: 60px;
+    }
 
-h2 {
-    font-size: 60px;
-    text-align: center;
-}
+    h2 {
+        font-size: 45px;
+    }
 
-h3 {
-    font-size: 35px;
-    text-align: center;
-}
+    h3,
+    h4 {
+        font-size: 35px;
+    }
 
+    /*Home Page*/
+    .Home_Photo_Gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
 
-.Home_Photo_Gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
+    }
 
-.Home_photo_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-    width: 47.5%;
-    margin: 10px;
-}
+    .Home_photo_container p {
+        font-size: 15px;
+    }
 
-.Home_photo_container img {
-    max-width: 100%;
-    border: 2px solid white;
-    border-radius: 20px;
-}
+    .Home_photo_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        width: 45%;
+        margin: 10px;
+    }
 
-#Home_Links {
-    text-decoration: underline;
-}
+    .Home_photo_container img {
+        max-width: 100%;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
 
-.Equipment_Photo_Gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
+    #Home_Links a {
+        color: white;
+    }
 
-.equipment_photo_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-    width: 47.5%;
-    margin: 10px;
-}
+    /*Equipment Page*/
 
-.equipment_photo_container img {
-    max-width: 100%;
-    border: 2px solid white;
-    border-radius: 20px;
-}
+    .Equipment_Photo_Gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
-.Pweapon_Photo_Gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
+    .equipment_photo_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        width: 45%;
+        margin: 10px;
+    }
 
-.equipment_photo_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-    width: 47.5%;
-    margin: 10px;
-}
+    .equipment_photo_container p {
+        font-size: 15px;
+    }
 
-.equipment_photo_container img {
-    max-width: 100%;
-    border: 2px solid white;
-    border-radius: 20px;
-}
+    .equipment_photo_container img {
+        max-width: 100%;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
 
-.Stratagem_Photo_Gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
+    .Pweapon_Photo_Gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
-.Stratagem_photo_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-    width: 97.5%;
-    margin: 10px;
-}
+    .Stratagem_Photo_Gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
-.Stratagem_photo_container img {
-    max-width: 100%;
-    border: 2px solid white;
-    border-radius: 20px;
-}
+    .Stratagem_photo_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        width: 97.5%;
+        margin: 10px;
+    }
 
-.Enemy_Photo_Gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
+    .Stratagem_photo_container p {
+        font-size: 15px;
+    }
 
-.Enemy_photo_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
-    width: 47.5%;
-    margin: 10px;
-}
+    .Stratagem_photo_container img {
+        max-width: 100%;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
 
-.Enemy_photo_container img {
-    max-width: 100%;
-    border: 2px solid white;
-    border-radius: 20px;
-}
+    /*Missions Page*/
+    .Enemy_Photo_Gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
-.faction_container {
-    display: block;
-    align-items: center;
-    /* Align items vertically centered */
-    margin: 10px 0;
-}
+    .Enemy_photo_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        width: 45%;
+        margin: 10px;
+    }
 
-.Faction_Logos {
-    display: flex;
-    /* Use Flexbox */
-    justify-content: center;
-    /* Center align the images horizontally */
-    padding: 10px;
-    margin: 10px;
-}
+    .Enemy_photo_container img {
+        max-width: 100%;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
 
-.Faction_Logos img {
-    max-width: 75%;
-    /* Increase the max-width to make the images larger */
-    width: 100%;
-    /* Ensure the image scales properly */
-    height: auto;
-    /* Maintain aspect ratio */
-}
+    .Enemy_photo_container p {
+        font-size: 15px;
+    }
 
-.faction_titles {
-    flex: 65%;
-    padding: 15px;
-    margin: 10px;
-}
+    /*Factions Page*/
+    .faction_container {
+        display: block;
+        align-items: center;
+        margin: 10px 0;
+    }
 
-.faction_content {
-    display: block;
-}
+    .Faction_Logos {
+        display: flex;
+        /* Use Flexbox */
+        justify-content: center;
+        /* Center align the images horizontally */
+        padding: 10px;
+        margin: 10px;
 
-footer {
-    padding: 0px 20px 20px 20px;
-}
-}
-/*Tablet*/
-@media (min-width: 600px) and (max-width: 999px) {
-    nav ul li{
-        display: inline-block;
+    }
+
+    .Faction_Logos img {
+        max-width: 75%;
+        /* Increase the max-width to make the images larger */
+        width: 100%;
+        /* Ensure the image scales properly */
+        height: auto;
+        /* Maintain aspect ratio */
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+
+    .faction_titles {
+        flex: 65%;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .faction_content {
+        display: block;
+    }
+
+    .faction_container{
+        border: 2px solid grey;
+        border-radius: 20px;
+        background-color: rgb(61, 61, 58);
+        padding: 10px;
     }
 }
-/*Desktop*/
-@media (min-width: 1000px) and (max-width: 1900px) {}
 
-/*Ultrawide*/
+/*Tablet*/
+@media(min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    .equipment_photo_container {
+        width: 30%;
+    }
+
+    .Stratagem_photo_container {
+        width: 45%
+    }
+
+    .faction_container{
+        border: 2px solid grey;
+        border-radius: 20px;
+        background-color: rgb(61, 61, 58);
+        padding: 10px;
+    }
+
+    .Faction_header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .faction_container img {
+        max-width: 100%;
+        width: 100%;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+
+}
+
+/*Desktop*/
+@media(min-width: 1024px) {
+
+    nav {
+        background-color: rgb(20, 20, 20);
+        border: 2px solid yellow;
+        border-radius: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav li a {
+        display: block;
+        background-color: grey;
+        height: 30px;
+        line-height: 30px;
+        color: black;
+        text-decoration: none;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid black;
+        margin: 0px;
+    }
+
+    nav li a:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    .Home_Photo_Gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+    .Home_photo_container p {
+        font-size: 15px;
+    }
+
+    .Home_photo_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        width: 22%;
+        margin: 10px;
+    }
+
+    .Home_photo_container img {
+        max-width: 100%;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+
+    .equipment_photo_container {
+        width: 18%;
+    }
+
+    .Stratagem_photo_container {
+        width: 30%
+    }
+
+    .mission_types_separator {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    article {
+        flex: 60%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    aside {
+        flex: 40%;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(61, 61, 58);
+        border: 2px solid yellow;
+        border-radius: 20px;
+    }
+
+    .Enemy_photo_container {
+        width: 30%;
+    }
+
+    .faction_divider {
+        display: flex;
+    }
+
+    .faction_container {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        width: 30%;
+        margin: 20px;
+        border: 2px solid grey;
+        border-radius: 20px;
+        background-color: rgb(61, 61, 58);
+    }
+
+    .faction_container img{
+        min-width: 50px;
+    }
+}
