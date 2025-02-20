@@ -23,14 +23,16 @@
     background-color: rgb(38, 38, 36)
 }
 
-/*Mobile*/
 #index_Body,
 #equipment_Body,
 #missions_Body,
 #factions_Body {
-    margin: 25px 20x 25px 20px;
+    margin: 25px 20px 25px 20px;
     padding: 20px;
 }
+
+/*Mobile*/
+@media(max-width: 599px){
 
 h1 {
     text-align: center;
@@ -195,7 +197,7 @@ h3 {
     align-items: center;
     text-align: center;
     font-size: 30px;
-    width: 47.5;
+    width: 47.5%;
     margin: 10px;
 }
 
@@ -243,7 +245,7 @@ h3 {
 footer {
     padding: 0px 20px 20px 20px;
 }
-
+}
 /*Tablet*/
 @media (min-width: 600px) and (max-width: 999px) {
     nav ul li{
