@@ -386,6 +386,7 @@ body {
 
     .faction_divider {
         display: flex;
+        justify-content: center;
     }
 
     .faction_container {
@@ -399,6 +400,15 @@ body {
         border: 2px solid grey;
         border-radius: 20px;
         background-color: rgb(61, 61, 58);
+    }
+
+    .faction_container h2{
+        font-size: 30px;
+    }
+
+    .Faction_header{
+        justify-content: center;
+        max-width: 90%;
     }
 
     .faction_container img{
