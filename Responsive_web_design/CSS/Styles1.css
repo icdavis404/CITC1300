@@ -1,0 +1,235 @@
+* {
+    background-color: rgb(20, 20, 20);
+    color: rgb(219, 219, 213);
+    text-decoration: none;
+}
+
+#index_Body, #page1_Body, #page2_Body {
+    border: 2px solid yellow;
+    border-radius: 20px;
+    background-color: rgb(38, 38, 36);
+    display: block;
+    margin: 30px 20px 30px 20px;
+    padding: 15px;
+}
+
+#index_Body *, #page1_Body *, #page2_Body * {
+    background-color: rgb(38, 38, 36);
+}
+
+aside{
+    background-color: rgb(61,61,58) !important;
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+
+aside *{
+    background-color: rgb(61,61,58) !important;
+}
+
+footer{
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+#Home_Links{
+    text-decoration: underline;
+}
+
+#Home_Links a:hover{
+    color: rgb(173, 172, 71);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+
+
+#index_Body h2, #page1_Body h2{
+    text-align: center;
+    font-size: 35px;
+
+}
+
+nav {
+    background-color: rgb(20,20,20) !important;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px
+}
+
+.nav_button a{
+    display: block;    
+    background-color: grey !important;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_button a:hover {
+    background-color: rgb(173, 172, 71) !important;
+    color: white;
+}
+
+.Home_Photo_Gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.Home_Photo_Gallery img {
+    max-width: 24.5%;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.Equipment_Photo_Gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.equipment_photo_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18%;
+    margin: 10px;
+}
+
+.equipment_photo_container img {
+    max-width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.equipment_photo_container p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+h2 {
+    width: 100%;
+    clear: both;
+    display: block;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4{
+    font-size: 25px;
+}
+.Pweapon_Photo_Gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.Pweapon_Photo_Gallery img {
+    max-width: 100%;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.Sweapon_Photo_Gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 33%;
+}
+
+.mission_types_separator {
+    display: flex;
+    width: 100%;
+}
+
+article {
+    flex: 60%;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside {
+    flex: 40%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.Stratagem_Photo_Gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.Stratagem_photo_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.5%;
+    margin: 10px;
+}
+.Stratagem_photo_container img {
+    max-width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+.Enemy_Photo_Gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.Enemy_photo_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.5%;
+    margin: 10px;
+}
+
+.Enemy_photo_container img {
+    max-width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.Home_Photo_Gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.Home_photo_container{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 24.5%;
+    margin: 10px;
+}
+.Home_photo_container img{
+    max-width: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+}
