@@ -5,29 +5,41 @@ body {
 }
 
 .Body_Container {
-    background-color: black;
+    background-color:#2b2c2e;
     border-radius: 20px;
-    margin: 30px 20px 25px 30px;
+    margin: 30px 20px 25px 20px;
     padding: 0;
     border: 2px solid white;
 }
 
+.content_page_container_5 a, .Home_Container_3 a{
+    color: blue;
+}
+
+.content_page_container_5 a:hover, .Home_Container_3 a:hover{
+    color: red;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    margin: 20px 20px 20px 0px;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+}
+
 /*Mobile Syle*/
+@media(max-width: 750px) {
+    
 /*Navbar*/
-    h1 {
-        font-size: 55px;
-        text-align: center;
-        margin: 20px 20px 20px 0px;
-    }
 
-    h2{
-        font-size: 35px;
-        text-align: center;
-    }
-
-    h3{
-        font-size: 20px;
-    }
 
     nav {
         display: block;
@@ -119,3 +131,203 @@ body {
         padding: 20px 15px 20px 15px;
         border: 1px solid white;
     }
+
+
+
+    .photo_container{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin: 10px 0px 10px 0;
+    }
+
+    .photo_container img{
+        max-width: 90%;
+    }
+
+    .Apollo_photo_container{
+        display: block;
+    }
+
+    .Apollo_photo_container{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px 10px 0;
+    }
+}
+
+@media(min-width: 750px) and (max-width: 1100px){
+    nav {
+        display: flex;
+        justify-content: center;
+        margin: 30px 20px 30px 20px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav ul li {
+        justify-content: center;
+        width: 18.5%;
+    }
+
+    nav ul li a {
+        height: 60px;
+        font-size: 25px;
+        display: flex;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        background-color: #cfd4d3;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    nav ul li a:hover {
+        background-color: #4282d6;
+        color: white;
+    }
+
+     /*Home Page*/
+
+     .Home_Container_1{
+        padding: 20px 15px 20px 15px;
+        border: 1px solid white;
+    }
+
+    .Home_Container_1_images{
+        display: block;
+    }
+
+    .photo_1, .photo_2{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px 10px 0;
+    }
+
+    .Home_Container_1 img{
+        display: block;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .Home_Container_2{
+        padding: 20px 15px 20px 15px;
+        border: 1px solid white;
+    }
+   
+    .Home_Container_2 h2{
+        text-align: center;
+    }
+
+    .video_container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .video_container video{
+        max-width: 90%;
+    }
+
+    .Home_Container_3{
+            padding: 20px 15px 20px 15px;
+    }
+
+    footer{
+        padding: 10px;
+
+    }
+
+    /*Content Pages*/
+    .content_page_container_1, .content_page_container_2, .content_page_container_3, .content_page_container_4, .content_page_container_5{
+        padding: 20px 15px 20px 15px;
+        border: 1px solid white;
+    }
+
+
+
+    .photo_container{
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin: 10px 0px 10px 0;
+    }
+
+    .photo_container img{
+        max-width: 90%;
+        max-height: 500px;
+    }
+
+    .Apollo_photo_container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .Apollo_photo_container{
+        display: flex;
+        justify-content: center;
+        margin: 10px 10px 10px 10px;
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    .Apollo_photo_container img{
+        max-width: 100%;
+    }
+
+}
+
+@media(min-width: 1101px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        margin: 30px 20px 30px 20px;
+        background-color: black;
+        border: white;
+        border-radius: 20px;
+        border: 2px solid white;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px 0px 10px 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav ul li {
+        justify-content: center;
+        width: 18.5%;
+    }
+
+    nav ul li a {
+        height: 60px;
+        font-size: 25px;
+        display: flex;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        background-color: #cfd4d3;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    nav ul li a:hover {
+        background-color: #4282d6;
+        color: white;
+    }
+
+}
