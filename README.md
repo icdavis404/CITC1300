@@ -7,5 +7,5 @@
 <a href ="Advanced_CSS/index.html">Advanced CSS</a>
 <p></p>
 <a href ="Responsive_web_design/index.html">Responsive Web Design</a>
-<p></p>
+<p> </p>
 <a href ="Final_Project/index.html">Final Project</a>
