@@ -1,7 +1,10 @@
+
+
+
 body {
     color: white;
     background-image: url(../images/Star_Background.jpg);
-
+    font-family:Oswald;
 }
 
 .Body_Container {
@@ -178,7 +181,7 @@ h3{
     }
 
     nav ul li a {
-        height: 60px;
+        height: 70px;
         font-size: 25px;
         display: flex;
         text-decoration: none;
@@ -296,6 +299,8 @@ h3{
         border: white;
         border-radius: 20px;
         border: 2px solid white;
+        position: sticky;
+        top: 0;
     }
 
     nav ul {
@@ -313,7 +318,7 @@ h3{
     }
 
     nav ul li a {
-        height: 60px;
+        height: 70px;
         font-size: 25px;
         display: flex;
         text-decoration: none;
@@ -330,4 +335,91 @@ h3{
         color: white;
     }
 
+    .Home_Container_1{
+        padding: 20px 15px 20px 15px;
+        border: 1px solid white;
+    }
+
+    .Home_Container_1_images{
+        display: flex;
+        justify-content: center;
+    }
+
+    .photo_1, .photo_2{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px 10px 0;
+    }
+
+    .Home_Container_1 img{
+        display: block;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .Home_Container_2{
+        padding: 20px 15px 20px 15px;
+        border: 1px solid white;
+    }
+   
+    .Home_Container_2 h2{
+        text-align: center;
+    }
+
+    .video_container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .video_container video{
+        max-width: 90%;
+    }
+
+    .Home_Container_3{
+            padding: 20px 15px 20px 15px;
+    }
+
+    footer{
+        padding: 10px;
+
+    }
+
+    .separator{
+        display: flex;
+    }
+
+    article{
+        flex: 75%;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+    aside{
+        flex: 25%;
+        padding: 10px;
+        margin: 10px;
+        
+    }
+
+    .photo_container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .photo_container img{
+        max-width: 100%;
+        max-height: 500px;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+
+    /*Content Pages*/
+    .content_page_container_2, .content_page_container_3, .content_page_container_4{
+        padding: 20px 15px 20px 15px;
+
+
+        border-top: 1px solid white;
+    }
 }
